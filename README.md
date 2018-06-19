@@ -1,5 +1,5 @@
-# SONO-masternode
-## Denarius Masternode Installer
+# SONO Masternode Installer
+
 ```
 bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode/master/sono.sh)"
 ```
