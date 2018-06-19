@@ -81,12 +81,12 @@ bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode
 ## 3. FAQ
 
 1. How to get masternode profit?
-	- Enable coin control feature (Settings => Options => Display => Display coin controll feature)
+	- Enable coin control feature (Settings => Options => Display => Display coin control feature)
 	- Go send tab
 	- Select from the input button only the 5 coin lines
 	- Click OK
 	- You can send selected amount to an address.
-	- Note: DO NOT EVER Transfer DNR from that original 1000 deposit or you'll break your Masternode.
+	- Note: DO NOT EVER Transfer SONO from that original 1000 deposit or you'll break your Masternode.
 1. I get the following error: "Could not allocate vin"
 	- Make sure your wallet fully synced and UNLOCKED.
 1. My wallet says my masternodes are not running.
