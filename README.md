@@ -83,7 +83,11 @@ bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode
 	- Set the generated private key: step 2.1.5
 	- Click Add and after click Start
 	- Wait to start receiving coins. Check your the masternode address here: [https://altexplorer.co/coin/sonov2](https://altexplorer.co/coin/sonov2)
-	- Note: You can't edit the masternodes config in the wallet but you can edit the file. `%appdata%/SONOv2/masternode.conf`.
+	- Note: You can't edit the masternodes config in the wallet but you can edit the file. `%appdata%/SONOv2/masternode.conf`.  
+	masternode.conf example    
+	```
+	SONO1 IPADDRESS:20000 MASTERNODEPRIVKEY TRANSACTIONHASH INDEX#(0 or 1)
+	```
 
 ## 3. FAQ
 
