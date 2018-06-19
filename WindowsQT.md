@@ -1,3 +1,4 @@
+# ![Sono](https://github.com/altcommunitycoin/SONO/raw/master/src/qt/res/images/about.png)
 # Sono QT Wallet Masternode Install
 
 ### Get your IP from here
