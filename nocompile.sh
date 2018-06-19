@@ -57,7 +57,7 @@ sudo mkdir  /root/.SONOv2
     rpcpassword=$(openssl rand -base64 48)
     echo -n "What is your masternodeprivkey? (Hint:genkey output)"
     read MASTERNODEPRIVKEY
-    echo -e "rpcuser=$rpcuser\nrpcpassword=$rpcpassword\addnode=seed1.projectsono.io\addnode=seed1.projectsono.io\addnode=seed1.projectsono.io\addnode=gfx-world.org\nserver=1\nlisten=1\nmaxconnections=100\ndaemon=1\nport=20000\nstaking=0\nrpcallowip=127.0.0.1\nexternalip=$VPSIP:20000\nmasternode=1\nmasternodeprivkey=$MASTERNODEPRIVKEY" > /root/.SONOv2/sono.conf
+    echo -e "rpcuser=$rpcuser\nrpcpassword=$rpcpassword\naddnode=seed1.projectsono.io\naddnode=seed1.projectsono.io\naddnode=seed1.projectsono.io\naddnode=gfx-world.org\nserver=1\nlisten=1\nmaxconnections=100\ndaemon=1\nport=20000\nstaking=0\nrpcallowip=127.0.0.1\nexternalip=$VPSIP:20000\nmasternode=1\nmasternodeprivkey=$MASTERNODEPRIVKEY" > /root/.SONOv2/sono.conf
 
 
 # echo "Get Chaindata"
