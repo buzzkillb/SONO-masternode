@@ -1,3 +1,4 @@
+# ![Sono](https://github.com/altcommunitycoin/SONO/raw/master/src/qt/res/images/about.png)
 # SONO Masternode Installer
 
 ```
