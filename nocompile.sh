@@ -41,7 +41,6 @@ apt-get --assume-yes install git unzip build-essential libssl-dev libdb++-dev li
 
 echo "Downloading Sono Wallet"
 wget https://github.com/zPools/sonoa/releases/download/2.0/SONOd
-tar -xvf denariusd-2.5.2.0_ubuntu16.tar.gz -C /usr/local/bin
 mv SONOd /usr/local/bin/SONOd
 
 echo "Populate sono.conf"
