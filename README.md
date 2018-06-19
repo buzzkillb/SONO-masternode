@@ -3,6 +3,10 @@
 ```
 bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode/master/sono.sh)"
 ```
+or  
+
+## Sono QT Wallet Masternode Guide
+https://github.com/buzzkillb/SONO-masternode/blob/master/WindowsQT.md
 
 ## Masternode Status Codes
 ```MASTERNODE_NOT_PROCESSED: 0 
