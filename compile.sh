@@ -49,7 +49,7 @@ cd sonoa
 git checkout master
 cd src
 make -f makefile.unix
-mv /opt/sonoa/src/SONOd /usr/local/bin/SONOd
+mv /opt/sonoa/src/sonod /usr/local/bin/SONOd
 
 echo "Populate sono.conf"
 sudo mkdir  /root/.SONOv2
