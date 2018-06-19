@@ -54,9 +54,6 @@ Your coins will be safe if the masternode server gets hacked.
 1. Save the transaction id, index `masternode outputs`, and generate and save a new masternode private key `masternode genkey`.
 1. You can optionaly encrypt the wallet (Settings => Encypt wallet) for security reasons. Do not forget the password or you lose the coins that you have.
 1. Backup `%appdata%/SONOv2/wallet.dat` file. This contains your coins. DO NOT LOSE IT!
-```
-SONO1 IPADDRESS:20000 MASTERNODEPRIVKEY TRANSACTIONHASH INDEX#(0 or 1)
-```
 
 ### 2.2 VPS setup
 1. Register on [Vultr](https://www.vultr.com/?ref=7307426). (or [DigitalOcean](https://m.do.co/c/6dffa03c3628)) (do not forget verify your e-mail)
