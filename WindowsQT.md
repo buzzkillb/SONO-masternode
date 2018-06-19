@@ -11,6 +11,7 @@ SONO1 IPADDRESS:20000 MASTERNODEPRIVKEY TRANSACTIONHASH INDEX#(0 or 1)
 
 ### sono.conf
 ```
+staking=0
 listen=1
 port=20000
 masternode=1
