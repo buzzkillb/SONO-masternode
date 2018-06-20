@@ -4,7 +4,7 @@ Create a directory called **Masternodes**
 Create SONO1 SONO2 SONO3 SONO4 directories under this **Masternodes** directory  
 copy the SONO-WIN-2-0.exe into the folder and rename it to whatever the Directory is called eg SONO1.exe  
 
-create a file called startsono1.cmd and enter the following and save  
+create a file called startsono1.cmd and enter the following and save. **Always run the .cmd not the .exe**  
 ### startsono1.cmd  
 ```
 start SONO1.exe -datadir=./ -listen=0
