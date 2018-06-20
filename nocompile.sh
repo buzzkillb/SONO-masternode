@@ -43,7 +43,7 @@ sudo apt-get update
 sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 
 echo "Downloading Sono Wallet"
-wget https://github.com/zPools/sonoa/releases/download/2.0/SONOd
+wget https://github.com/zPools/sonoa/releases/download/2.0.0.2/SONOd
 mv SONOd /usr/local/bin/SONOd
 chmod 755 /usr/local/bin/SONOd
 
