@@ -15,7 +15,7 @@ do
   echo -e "Enter your selection \c"
   read answer
   case "$answer" in
-    1) bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode/master/compile.sh)" ;;
+    1) bash -c "$(wget -O - https://raw.githubusercontent.com/mtbor/SONO-masternode/master/compile.sh)" ;;
     2) bash -c "$(wget -O - https://github.com/mtbor/SONO-masternode/blob/master/nocompile.sh)" ;;
     3) SONOd getinfo ;;
     4) tail -f ~/.SONOv2/debug.log ;;
