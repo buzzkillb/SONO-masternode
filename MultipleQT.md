@@ -20,9 +20,10 @@ masternode=1
 masternodeaddr=IPADDRESS:PORT
 masternodeprivkey=YOURMASTERNODEPRIVKEY
 addnode=seed1.projectsono.io
-addnode=seed1.projectsono.io
-addnode=seed1.projectsono.io
+addnode=seed2.projectsono.io
+addnode=seed3.projectsono.io
 addnode=gfx-world.org
+addnode=seed.zpools.de
 ```
 
 For your main SONO wallet appdata/roaming/sonov2. This is your hot wallet outside of the **Masternodes** directory, for 3 masternodes  
@@ -31,9 +32,10 @@ For your main SONO wallet appdata/roaming/sonov2. This is your hot wallet outsid
 staking=1
 listen=1
 addnode=seed1.projectsono.io
-addnode=seed1.projectsono.io
-addnode=seed1.projectsono.io
+addnode=seed2.projectsono.io
+addnode=seed3.projectsono.io
 addnode=gfx-world.org
+addnode=seed.zpools.de
 ```
 ### masternode.conf  
 ```
