@@ -2,7 +2,7 @@
 # SONO Masternode Installer
 
 ```
-bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode/master/sono.sh)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/mtbor/SONO-masternode/master/sono.sh)"
 ```
 or  
 
