@@ -22,6 +22,7 @@ ufw default deny incoming
 ufw allow ssh/tcp
 ufw limit ssh/tcp
 ufw allow 31000/tcp
+ufw allow 32000/tcp
 ufw allow 20000/tcp
 ufw logging on
 ufw --force enable
@@ -43,7 +44,7 @@ sudo apt-get update
 sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 
 echo "Downloading Sono Wallet"
-wget https://github.com/zPools/sonoa/releases/download/2.0.2.1/SONOd
+wget https://github.com/zPools/sonoa/releases/download/2.0.2.3/SONOd
 mv SONOd /usr/local/bin/SONOd
 chmod 755 /usr/local/bin/SONOd
 
@@ -57,7 +58,7 @@ sudo mkdir  /root/.SONOv2
     rpcpassword=$(openssl rand -base64 48)
     echo -n "What is your masternodeprivkey? (Hint:genkey output)"
     read MASTERNODEPRIVKEY
-    echo -e "rpcuser=$rpcuser\nrpcpassword=$rpcpassword\naddnode=seed1.projectsono.io\naddnode=seed1.projectsono.io\naddnode=seed1.projectsono.io\naddnode=gfx-world.org\nserver=1\nlisten=1\nmaxconnections=100\ndaemon=1\nport=20000\nstaking=0\nrpcallowip=127.0.0.1\nexternalip=$VPSIP:20000\nmasternode=1\nmasternodeprivkey=$MASTERNODEPRIVKEY" > /root/.SONOv2/sono.conf
+    echo -e "rpcuser=$rpcuser\nrpcpassword=$rpcpassword\naddnode=seed1.projectsono.io\naddnode=seed2.projectsono.io\naddnode=seed3.projectsono.io\naddnode=gfx-world.org\naddnode=seed.zpools.de\nserver=1\nlisten=1\nmaxconnections=100\ndaemon=1\nport=20000\nstaking=0\nrpcallowip=127.0.0.1\nexternalip=$VPSIP:20000\nmasternode=1\nmasternodeprivkey=$MASTERNODEPRIVKEY" > /root/.SONOv2/sono.conf
 
 
 # echo "Get Chaindata"
