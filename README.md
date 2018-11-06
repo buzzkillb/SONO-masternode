@@ -7,7 +7,7 @@ bash -c "$(wget -O - https://raw.githubusercontent.com/mtbor/SONO-masternode/mas
 or  
 
 ## Sono QT Wallet Masternode Guide
-https://github.com/buzzkillb/SONO-masternode/blob/master/WindowsQT.md
+https://github.com/mtbor/SONO-masternode/blob/master/WindowsQT.md
 
 ## Masternode Status Codes
 ```MASTERNODE_NOT_PROCESSED: 0 
