@@ -68,7 +68,7 @@ Your coins will be safe if the masternode server gets hacked.
 1. Start putty and login as root user. (Root password and server ip address is in vultr overview tab)
 1. Paste this command and answer the questions, use defaults for anything and only need to enter masternodeprivkey:
 ```
-bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/SONO-masternode/master/sono.sh)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/mtbor/SONO-masternode/master/sono.sh)"
 ```
 
 ### 2.4 Add masternode on the desktop wallet
